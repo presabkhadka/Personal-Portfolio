@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+/* NAVBAR PORTION */
+
+.navbar{
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo{
+    color: white;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-logo span{
+    color: orange;
+}
+
+.navbar-options{
+font-size: 1rem;
+font-weight: bold;
+}
+
+.navbar-options a{
+    color: #8d8b8b;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.navbar-options a:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.active{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/* CONTENT PORTION */
+
+.content-section{
+    background-color: #232f3e;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text-part{
+    width: 40%;
+}
+
+#greetings{
+    color: orange;
+    font: 1rem;
+    margin-bottom: 20px;
+}
+
+.text-part h1{
+    color: white;
+    /* margin-top: 20px; */
+}
+
+#yellow{
+    color: yellow;
+}
+
+.text-part p{
+    color: #dddddd;
+    width: 70%;
+    margin-top: 10px;
+}
+
+button{
+    color: black;
+    background-color: yellow;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    font-family: monospace;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.image-part{
+    background-image: url(/image/dev.png);
+    height: 400px;
+    width: 40%;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+/* FOOTER PORTION */
+
+.foot-section{
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
