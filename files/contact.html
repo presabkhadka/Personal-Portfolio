@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-logo">
+                Presab's Portfolio
+            </div>
+            <div class="navbar-options">
+                <a href="./index.html" >HOME</a>
+                <a href="./projects.html">PROJECTS</a>
+                <a href="#" class="active">CONTACT</a>
+            </div>
+        </div>
+    </header>
+    <div class="form-section">
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="50514944-43cf-4f7b-883d-74cb1eb612e5">
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname">
+                <div class="error" id="fullnameError"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <div class="error" id="messageError"></div>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
