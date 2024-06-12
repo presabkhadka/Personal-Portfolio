@@ -66,6 +66,11 @@ font-weight: bold;
     text-align: center;
     background-color: #bebebe;
     margin-top: 3em;
+    opacity: 0.7;
+}
+
+.card:hover{
+    opacity: 1;
 }
 
 .card .proj-img{

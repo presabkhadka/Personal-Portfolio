@@ -10,7 +10,7 @@ body{
 
 /* NAVBAR PORTION */
 
-.navbar {
+.navbar{
     background-color: black;
     height: 60px;
     width: 100%;
@@ -19,34 +19,34 @@ body{
     align-items: center;
 }
 
-.navbar-logo {
+.navbar-logo{
     color: white;
     width: 40%;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-.navbar-logo span {
+.navbar-logo span{
     color: orange;
 }
 
-.navbar-options {
-    font-size: 1rem;
-    font-weight: bold;
+.navbar-options{
+font-size: 1rem;
+font-weight: bold;
 }
 
-.navbar-options a {
+.navbar-options a{
     color: #8d8b8b;
     text-decoration: none;
     margin-right: 15px;
 }
 
-.navbar-options a:hover {
+.navbar-options a:hover{
     border-bottom: 1px solid white;
     color: white;
 }
 
-.active {
+.active{
     border-bottom: 1px solid white;
     color: white;
 }
